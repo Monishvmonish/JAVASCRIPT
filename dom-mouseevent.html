@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+div{
+    background: linear-gradient(90deg,teal,red,orange);
+    height: 1000px;
+    width: 1000px;
+   padding: 90px;
+  
+   justify-content: center;
+   font-size: xx-large;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: bolder;
+
+}
+
+    </style>
+</head>
+<body><center>
+ <div onclick=" mover(this)" onmouseout=" mOut(this)">cheerio this monish</div>
+<script>
+function mover(info){
+info.innerHTML = "thanks";
+
+}
+function mOut(info){
+    info.innerHTML = "mouse over data";
+
+}
+
+    </script>
+</body>
+</html>
